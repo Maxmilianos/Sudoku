@@ -1,6 +1,7 @@
 package the.max.sudoku;
 
 import the.max.sudoku.menu.MenuPlay;
+import the.max.sudoku.menu.MenuSelect;
 
 import java.awt.*;
 
@@ -9,7 +10,7 @@ public class Sudoku {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    new MenuPlay();
+                    new MenuSelect();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
